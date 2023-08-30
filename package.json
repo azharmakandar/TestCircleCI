@@ -1,0 +1,19 @@
+{
+  "name": "testing-automation-practice",
+  "version": "1.0.0",
+  "description": "all about testing circle-ci feature",
+  "main": "TestCircleCI.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "Test",
+    "circle-ci",
+    "feature"
+  ],
+  "author": "azhar makandar",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.6.4"
+  }
+}
