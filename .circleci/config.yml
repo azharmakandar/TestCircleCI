@@ -1,6 +1,4 @@
 version: 2.1
-<<<<<<< HEAD
-
   jobs:
     build:
       docker:
@@ -9,12 +7,3 @@ version: 2.1
         - checkout
         - run: npm install
         - run: npm test
-=======
-orbs:
-  node: circleci/node@18.12.1
-workflows:
-  test:
-    jobs:
-      - node/test:
-          test-results-for: jest
->>>>>>> 6c70f6e22c8736068c8766ed4ebceac4d817e1a1
