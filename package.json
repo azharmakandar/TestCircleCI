@@ -4,8 +4,8 @@
   "description": "all about testing circle-ci feature",
   "main": "TestCircleCI.js",
   "scripts": {
-    "test": "node TestCircleCI.js",
-    "test:unit": "jest"
+    "test:unit": "node TestCircleCI.js",
+    "test": "jest"
   },
   "keywords": [
     "Test",
